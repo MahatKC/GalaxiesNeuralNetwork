@@ -1,0 +1,2 @@
+layer_type,layers,activation,optimizer,optimizer_params,learning_rate,loss_func,activate_dropout,dropout_rate,num_epochs,batch_size,train_accuracy,val_accuracy
+Linear,"(10, 10), (10, 3)",Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,False,0.2,2000,200,0.9613,0.9595
