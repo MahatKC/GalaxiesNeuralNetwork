@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .~lock.grid_search.csv#
+runs/trial_run/events.out.tfevents.1628694451.PhoenixAda.16843.16
