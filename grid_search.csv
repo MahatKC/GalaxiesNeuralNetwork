@@ -1,2 +1,14 @@
-layer_type,layers,activation,optimizer,optimizer_params,learning_rate,loss_func,activate_dropout,dropout_rate,num_epochs,batch_size,train_accuracy,val_accuracy
-Linear,"(10, 10), (10, 3)",Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,False,0.2,2000,200,0.9613,0.9595
+layer_type,layers,num_trainable_params,time,activation,optimizer,optimizer_params,learning_rate,loss_func,activate_dropout,dropout_rate,num_epochs,batch_size,train_accuracy,val_accuracy
+Linear,"(10, 10), (10, 3)",130,21.74,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,True,0.2,2000,200,0.8407,0.86
+Linear,"(10, 10), (10, 10), (10, 3)",230,24.789,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,True,0.2,2000,200,0.8485,0.8525
+Linear,"(10, 20), (20, 20), (20, 3)",660,30.386,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,True,0.2,2000,200,0.8515,0.8515
+Linear,"(10, 20), (20, 20), (20, 10), (10, 3)",830,35.846,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,True,0.2,2000,200,0.8465,0.8515
+Linear,"(10, 20), (20, 40), (40, 10), (10, 3)",1430,39.395,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.01,CrossEntropy,True,0.2,2000,200,0.8455,0.853
+Linear,"(10, 20), (20, 40), (40, 10), (10, 3)",1430,39.293,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.0001,CrossEntropy,True,0.2,2000,200,0.8468,0.851
+Linear,"(10, 20), (20, 40), (40, 10), (10, 3)",1430,40.686,Sigmoid,Adam,weight_decay=0.01,learning_rate=1e-05,CrossEntropy,True,0.2,2000,200,0.8407,0.848
+Linear,"(10, 20), (20, 40), (40, 10), (10, 3)",1430,39.738,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8493,0.8515
+Linear,"(10, 40), (40, 40), (40, 10), (10, 3)",2430,40.556,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8448,0.8545
+Linear,"(10, 40), (40, 10), (10, 3)",830,33.123000000000005,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8483,0.86
+Linear,"(10, 40), (40, 20), (20, 3)",1230,34.915,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8467,0.8545
+Linear,"(10, 20), (20, 20), (20, 3)",630,31.021,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8503,0.851
+Linear,"(10, 20), (20, 20), (20, 3)",630,31.005,Relu,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.9302,0.9325
