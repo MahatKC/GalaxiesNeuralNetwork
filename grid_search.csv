@@ -12,3 +12,37 @@ Linear,"(10, 40), (40, 10), (10, 3)",830,33.123000000000005,Sigmoid,Adam,weight_
 Linear,"(10, 40), (40, 20), (20, 3)",1230,34.915,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8467,0.8545
 Linear,"(10, 20), (20, 20), (20, 3)",630,31.021,Sigmoid,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.8503,0.851
 Linear,"(10, 20), (20, 20), (20, 3)",630,31.005,Relu,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.9302,0.9325
+Linear,"(10, 20), (20, 20), (20, 3)",630,32.763000000000005,TanH,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.9377,0.943
+Linear,"(10, 20), (20, 20), (20, 3)",630,42.418,LeakyReLU,Adam,weight_decay=0.01,learning_rate=0.001,CrossEntropy,True,0.2,2000,200,0.9293,0.9390000000000001
+Linear,"(10, 20), (20, 20), (20, 3)",630,28.419,TanH,Adam,weight_decay=0.01,learning_rate=0.001,MSELoss,True,0.2,2000,200,0.9467,0.9465
+Linear,"(10, 20), (20, 20), (20, 3)",630,29.785,TanH,Adam,weight_decay=0.01,learning_rate=0.001,L1Loss,True,0.2,2000,200,0.9358,0.9470000000000001
+Linear,"(10, 20), (20, 20), (20, 3)",630,33.325,TanH,SGD,weight_decay=0.01,learning_rate=0.001,MSELoss,True,0.2,2000,200,0.5005,0.521
+Linear,"(10, 20), (20, 20), (20, 3)",630,47.106,TanH,SGD,weight_decay=0.0,actual learning_rate=0.001,MSELoss,True,0.2,2000,200,0.4913,0.509
+Linear,"(10, 20), (20, 20), (20, 3)",630,30.903,TanH,SGD,actual weight_decay=0.01,actual learning_rate=0.001,MSELoss,True,0.2,2000,200,0.4867,0.5055
+Linear,"(10, 20), (20, 20), (20, 3)",630,30.734,TanH,Adam,actual weight_decay=0,actual learning_rate=0.001,MSELoss,True,0.2,2000,200,0.91,0.924
+Linear,"(10, 20), (20, 20), (20, 3)",630,47.15,TanH,Adam,actual weight_decay=0,actual learning_rate=0.001,MSELoss,True,0.2,3000,200,0.916,0.9165
+Linear,"(10, 20), (20, 20), (20, 3)",630,48.793,TanH,Adam,actual weight_decay=0,actual learning_rate=0.001,MSELoss,True,0.2,3500,200,0.9217,0.9229999999999999
+Linear,"(10, 20), (20, 20), (20, 3)",630,35.34900000000001,TanH,Adam,actual weight_decay=0,actual learning_rate=0.003,MSELoss,True,0.2,2500,200,0.9333,0.942
+Linear,"(10, 20), (20, 20), (20, 3)",630,36.09,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.2,2500,200,0.9285,0.9355
+Linear,"(10, 20), (20, 20), (20, 3)",630,44.217,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.2,3500,200,0.9455,0.949
+Linear,"(10, 20), (20, 20), (20, 3)",630,45.771,TanH,Adam,actual weight_decay=0,actual learning_rate=0.003,MSELoss,True,0.2,3500,200,0.9327,0.9485
+Linear,"(10, 20), (20, 20), (20, 3)",630,51.541,TanH,Adam,actual weight_decay=0,actual learning_rate=0.03,MSELoss,True,0.2,3500,200,0.932,0.9315
+Linear,"(10, 20), (20, 20), (20, 3)",630,55.333999999999996,TanH,Adam,actual weight_decay=0.01,actual learning_rate=0.01,MSELoss,True,0.2,3500,200,0.7703,0.787
+Linear,"(10, 20), (20, 20), (20, 3)",630,48.816,TanH,Adam,actual weight_decay=0.0001,actual learning_rate=0.01,MSELoss,True,0.2,3500,200,0.9367,0.943
+Linear,"(10, 20), (20, 20), (20, 3)",630,52.519,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.1,3500,200,0.9653,0.9690000000000001
+Linear,"(10, 20), (20, 20), (20, 3)",630,51.148,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.05,3500,200,0.9753,0.968
+Linear,"(10, 20), (20, 20), (20, 3)",630,42.628,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,3500,200,0.9722,0.9690000000000001
+Linear,"(10, 20), (20, 20), (20, 3)",630,36.823,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,3000,32,0.8938,0.8955
+Linear,"(10, 20), (20, 20), (20, 3)",630,58.32899999999999,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,32,0.9725,0.9735
+Linear,"(10, 20), (20, 20), (20, 3)",630,60.348,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,8,0.9732,0.968
+Linear,"(10, 20), (20, 20), (20, 3)",630,58.823,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,1,0.9722,0.971
+Linear,"(10, 20), (20, 20), (20, 3)",630,57.735,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,64,0.9717,0.9675
+Linear,"(10, 20), (20, 20), (20, 3)",630,59.591,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,128,0.9845,0.98
+Linear,"(10, 20), (20, 20), (20, 3)",630,60.756,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,256,0.9853,0.9795
+Linear,"(10, 20), (20, 20), (20, 3)",630,61.853,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.05,5000,512,0.9687,0.966
+Linear,"(10, 20), (20, 20), (20, 3)",630,73.01100000000002,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.05,5000,512,0.9793,0.974
+Linear,"(10, 20), (20, 20), (20, 3)",630,69.189,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,True,0.1,5000,512,0.9608,0.9690000000000001
+Linear,"(10, 40), (40, 20), (20, 3)",1260,69.285,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.1,5000,128,0.9840000000000001,0.978
+Linear,"(10, 20), (20, 20), (20, 10), (10, 3)",830,66.783,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.1,5000,128,0.96,0.9585
+Linear,"(10, 20), (20, 20), (10, 3)",630,66.837,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.1,5000,128,0.9717,0.9670000000000001
+Linear,"(10, 20), (20, 20), (10, 3)",630,67.163,TanH,Adam,actual weight_decay=0,actual learning_rate=0.01,MSELoss,False,0.1,5000,128,0.9818,0.978

@@ -131,3 +131,4 @@ dmypy.json
 .pyre/
 .~lock.grid_search.csv#
 runs/trial_run/events.out.tfevents.1628694451.PhoenixAda.16843.16
+runs2/arch_3layer20_20trualfa_min2_tanh_MSE_Adam_5kepochs_dropFalse_batch128/events.out.tfevents.1629299004.PhoenixAda.8672.37
