@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://www.sdss.org/wp-content/uploads/2016/07/sdss_gaulme.jpg" width="250"/><br>
+  <img src="https://www.sdss.org/wp-content/uploads/2016/07/sdss_gaulme.jpg" width="400"/><br>
   <span><i>SDSS Telescope. [Image Source](https://www.sdss.org/dr14/)</i></span>
 </p>
 
