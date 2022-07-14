@@ -1,6 +1,6 @@
 # GalaxiesNeuralNetwork
 
-Project developed by  [@MahatKC](https://www.github.com/MahatKC), [@robertaalcantara](https://github.com/robertaalcantara) and [@igorFNegrizoli](https://www.github.com/igorFNegrizoli) in 2021.
+Project developed by  [@MahatKC](https://www.github.com/MahatKC), [@EnergyFall266](https://github.com/EnergyFall266) and [@igorFNegrizoli](https://www.github.com/igorFNegrizoli) in 2021.
 
 This project was an assignment for the Artificial Intelligence class we took in our 3rd year of Computer Science.
 
