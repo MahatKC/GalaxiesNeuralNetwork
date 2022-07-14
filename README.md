@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/NGC6972_-_SDSS_DR14.jpg/600px-NGC6972_-_SDSS_DR14.jpg" width="500"/><br>
-  <span><i>Image from the Sloan Digital Sky Survey DR14. [Image Source](https://pt.m.wikipedia.org/wiki/Ficheiro:NGC6972_-_SDSS_DR14.jpg)</i></span>
+  <span><i>Image from the Sloan Digital Sky Survey DR14</i></span>
 </p>
 
 Project developed by  [@MahatKC](https://www.github.com/MahatKC), [@EnergyFall266](https://github.com/EnergyFall266) and [@igorFNegrizoli](https://www.github.com/igorFNegrizoli) in 2021.
